@@ -108,6 +108,7 @@ function App() {
               </Popup>
             
           </div>
+           {/* Popup for recommended trek option */}
           <div className="row rowItem">
           <Popup trigger=
                 {<b> Recommended Treks </b>} 
@@ -185,6 +186,7 @@ function App() {
               </Popup> 
           
           </div>
+           {/* Popup to lock bike */}
           <div className="row rowItem">
             <Popup trigger=
                 {<b> Lock Bike </b>} 
@@ -213,6 +215,7 @@ function App() {
                 }
               </Popup>
                 </div>
+              {/* Popup to lock bike */}
           <div className="row rowItem">
           <Popup trigger=
                 {<b> Profile </b>} 
@@ -246,7 +249,7 @@ function App() {
               </Popup>  
           </div>
         </div>
-         {/* Google Map with iframe snippet from iframe */}
+         {/* Google Map with map snippet from iframe */}
         <div className='main'>
           <div className="map" id="map">
           <iframe width="100%" height="100%" id="gmap_canvas" src="https://maps.google.com/maps?q=2302%20Chickasaw%20St&t=&z=13&ie=UTF8&iwloc=&output=embed"></iframe>
